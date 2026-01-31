@@ -387,6 +387,52 @@ nav .menu {
   margin-top: 20px;
 }
 
+footer {
+  padding: 80px 30px;
+  width: 100%;
+}
+footer .links {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .links .left img {
+  width: 100px;
+}
+footer .links .left .social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+footer .links .left .social i {
+  font-size: 24px;
+}
+footer .links .left .social i:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+footer .links .right {
+  display: flex;
+  gap: 25px;
+}
+footer .links .right .col ul {
+  list-style-type: none;
+}
+footer .links .right .col ul li {
+  margin-bottom: 8px;
+  opacity: 0.6;
+}
+footer .links .right .col ul li:nth-child(1) {
+  opacity: 1;
+  text-transform: uppercase;
+}
+footer .links .right .col ul li:hover {
+  color: #e8602e;
+  opacity: 1;
+  cursor: pointer;
+}
+
 @media (max-width: 780px) {
   nav .links, nav .btn {
     display: none;
