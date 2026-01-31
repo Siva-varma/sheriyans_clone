@@ -460,4 +460,7 @@ footer .links .right .col ul li:hover {
     width: 100%;
     height: auto;
   }
+  .footer-img {
+    display: none !important;
+  }
 }/*# sourceMappingURL=style.css.map */
